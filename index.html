@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #logo, .escudo , h4 {
+            width: 90px;
+            height: 90px;
+            display: inline-block;
+            }
+        .header {
+            background-image: url(https://cidadeolimpica.com.br/wp-content/uploads/2020/09/ceara-wallpaper-pc6.jpg);
+            background-repeat: no-repeat;
+            padding-bottom: 120px;
+            height: 30vh;
+            text-align: center;
+        }
+        h1 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white;
+            margin-bottom: 0;
+            font-size: 50px;
+            text-align: center;
+        }
+        h5 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white;
+            margin-bottom: 1;
+        }
+        button {
+            position: absolute; top: 244px; right: 380px;
+
+        }
+        li {
+            display: inline;
+            color: white;
+        }
+        .primeiro {
+            position: absolute; left: 200px;
+            color: gold;
+        }
+        .segundo {
+            position: absolute; left: 400px;
+            color: gold;
+        }
+        .terceiro {
+            text-align: center;
+            color: gold;
+        }
+        .quarto {
+            position: absolute; right: 400px;            
+            color: gold;
+        }
+        .quinto {
+            position: absolute; right: 200px;
+            color: gold;
+        }
+        a:hover {
+            color: gold;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .branco{
+            width: 100%;
+            height: 50vh;
+            background-color: rgb(255, 255, 255);
+            padding-bottom: 120px;
+            text-align: center;
+        }
+        .preto {
+            width: 100%;
+            height: 50vh;
+            background-color: rgb(0, 0, 0);
+            padding-bottom: 120px;
+        }
+        h2 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-top: 0;
+            font-size: 50px;
+        }
+        .mascote {
+            color: white;
+        }
+        .container-a {
+            color: white;
+            float: left;
+            width: 300px;
+        }
+        .container-b {
+            float: right;
+            width: 950px;;
+        }
+        .video {
+            float: left;
+            padding: 70px;
+        }
+        .historia{
+            float: right;
+            padding: 100px;
+            text-align: center;
+        }
+        .ultimo {
+            width: 100%;
+            height: 50vh;
+            background-color: rgb(255, 255, 255);
+            padding-bottom: 120px;
+            text-align: center;
+        }
+        .socio{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo-ceara-2048.png" alt="logo do Ceará" id="logo">
+        <h1>CEARÁ SPORTING CLUB</h1>
+        <h5>O time do povo</h5>
+        <textarea name="nome do usuário" id="" cols="25" rows="1">Seu Email</textarea>
+        <textarea name="email do usuário" id="" cols="25" rows="1">Sua Senha</textarea>
+        <button>LOGIN</button>
+        <ul>
+            <li class="primeiro"><a href="https://www.cearasc.com/">Site Oficial</a></li>
+            <li class="segundo"><a href="https://vozao.com.br/">Loja Virtual</a></li>
+            <li class="terceiro"><a href="https://twitter.com/cearasc">Twitter Oficial</a></li>
+            <li class="quarto"><a href="https://www.instagram.com/cearasc/?hl=pt-br">Instagram Oficial</a></li>
+            <li class="quinto"><a href="https://pt.wikipedia.org/wiki/Cear%C3%A1_Sporting_Club">Nossa História</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="branco">
+                <h2>A evolução dos escudos</h2>
+                <img src="primeiro-escudo-do-ceara-1914-150x150.jpg" alt="Primeiro escudo Ceará" class="escudo">
+                <h4>1914</h4>
+                <img src="segundo-escudo.jpg" alt="Segundo escudo Ceará" class="escudo">
+                <h4>1915-1954</h4>
+                <img src="terceiro-escudo.jpg" alt="Terceiro escudo Ceará" class="escudo">
+                <h4>1955-1969</h4>
+                <br>
+                <img src="quarto-escudo.jpg" alt="Quarto escudo Ceará" class="escudo">
+                <h4>1969</h4>
+                <img src="quinto-escudo.jpg" alt="Quinto escudo Ceará" class="escudo">
+                <h4>1970-2003</h4>
+                <img src="sextoescudo.png" alt="Sexto escudo Ceará" class="escudo">
+                <h4>2003-ATUAL</h4>
+        </div>
+        <div class="preto">
+            <div class="container-a">
+                <h2 class="mascote">Mascote</h2>
+                <p>A história do Ceará Sporting Club diz hoje que, de acordo com um depoimento de Aníbal Câmara Bonfim, um dos fundadores do clube cearense América Football Club, o apelido Vovô do alvinegro de Porangabuçu seria uma atribuição ao lendário Meton de Alencar Pinto.
+                Aníbal disse que os garotos das categorias de base dos americanos costumavam treinar no campo do Ceará. Nesta época, o então presidente do Vovô seria Meton de Alencar Pinto e que, de forma alegre, ao encontrar os garotos treinando, passou a tratá-los de “meus netinhos”. A brincadeira teria tomado maiores proporções e a molecada passaria a combinar os treinos “lá no Vovô”.</p>
+            </div>
+            <div class="container-b">
+                <img src="vovo.webp" alt="mascote Ceará">
+            </div>
+        </div>
+        <div class="branco">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lzIeeOBxZJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="historia">
+                <h2>História em vídeo</h2>
+            </div>
+        </div>
+        <div class="preto">
+            
+        </div>
+        <div class="ultimo">
+            <h1 class="socio">Seja Sócio</h1>
+            <textarea name="Nome" id="" cols="25" rows="1">Nome</textarea>
+            <textarea name="Senha" id="" cols="25" rows="1">Senha</textarea>
+            <button class="botao">ENTRAR</button>
+        </div>
+    </div>
+</body>
+</html>
